@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+    <children>
+        <AnchorPane layoutY="85.0" prefHeight="315.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Label contentDisplay="CENTER" layoutX="296.0" layoutY="51.0" prefHeight="64.0" prefWidth="124.0" text="hello" textAlignment="CENTER" textFill="#281e1e" textOverrun="CLIP" underline="true">
+               <font>
+                  <Font size="51.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="178.0" fitWidth="684.0" layoutX="192.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/horses.jpg" />
+               </image>
+            </ImageView>
+         </children>
+        </AnchorPane>
+        <Label contentDisplay="CENTER" layoutX="300.0" layoutY="14.0" prefHeight="15.0" prefWidth="101.0" text="App" textAlignment="CENTER" textFill="#fcf9f9" textOverrun="CLIP" underline="true">
+            <font>
+                <Font size="51.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
